@@ -1,0 +1,4 @@
+// Safe defaults for unsigned simulator builds. Keep personal signing settings local.
+NEARBY_DEVELOPMENT_TEAM =
+NEARBY_BUNDLE_ID_PREFIX = org.example.nearbylab
+#include? "Signing.local.xcconfig"

@@ -1,0 +1,13 @@
+NearbyLab
+Copyright 2026 bigmeco
+
+An independent example project. Not an official Google sample and not affiliated
+with or endorsed by Google, Apple or JetBrains.
+
+The Gradle wrapper (gradlew and gradle/wrapper/gradle-wrapper.jar) is distributed
+under Apache-2.0. Copyright belongs to its original authors; see gradlew.
+
+Google Nearby, Android libraries, Kotlin, Compose Multiplatform and other
+dependencies retain their own licenses and notices. SDK sources are fetched by
+Gradle/Swift Package Manager and are not vendored in this repository.
+See docs/DEPENDENCIES.md for dependency sources and licensing notes.

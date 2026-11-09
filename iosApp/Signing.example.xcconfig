@@ -1,0 +1,3 @@
+// Copy to Signing.local.xcconfig (gitignored) and replace both values.
+NEARBY_DEVELOPMENT_TEAM = YOUR_TEAM_ID
+NEARBY_BUNDLE_ID_PREFIX = com.yourcompany.nearbylab

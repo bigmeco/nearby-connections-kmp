@@ -1,0 +1,31 @@
+# Build products and machine-specific configuration
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+__pycache__/
+*.pyc
+.swiftpm/
+**/xcuserdata/
+**/DerivedData/
+iosApp/Signing.local.xcconfig
+
+# Private device evidence, credentials and signing material
+evidence/
+vendor/
+*.ndjson
+*.apk
+*.aab
+*.ipa
+*.xcarchive/
+*.xcresult/
+*.mobileprovision
+*.p12
+*.p8
+*.keystore
+*.jks
+.env
+.env.*
