@@ -18,6 +18,13 @@ def check(condition, message):
         raise SystemExit(message)
 
 
+wrapper = (root / "gradle/wrapper/gradle-wrapper.properties").read_text()
+check(
+    re.search(r"(?m)^distributionSha256Sum=[0-9a-f]{64}$", wrapper) is not None,
+    "Gradle distribution checksum must be exactly 64 lowercase hex characters.",
+)
+
+
 # Regeneration must be portable, deterministic and independent of local signing.
 ios = root / "iosApp"
 generated = [
